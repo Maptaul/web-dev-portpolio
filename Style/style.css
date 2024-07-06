@@ -7,6 +7,10 @@
   }
 
 /* shared style */
+.secondary-bg{
+    background-color: #fff8f3;
+}
+
 .text-primary{
     color: rgb(253, 110, 10);
 }
@@ -23,6 +27,17 @@
     line-height: 27px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.section-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* header */
@@ -89,4 +104,26 @@ nav li a{
     line-height: 30px;
     letter-spacing: 0%;
     text-align: justify;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/* .about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-weight: 600;
 }
